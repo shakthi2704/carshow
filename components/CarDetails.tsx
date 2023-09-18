@@ -5,7 +5,7 @@ import { CarProps } from "@/types"
 import { Dialog, Transition } from "@headlessui/react"
 
 interface CarDetailsProps {
-  isOpen: Boolean
+  isOpen: boolean
   closeModal: () => void
   car: CarProps
 }
